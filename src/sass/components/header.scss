@@ -9,6 +9,10 @@
     padding-top: 26px;
   }
 
+  &__left-side {
+    max-width: 650px;
+  }
+
   &__text-white,
   &__main-title {
     margin: 22px 0;
@@ -22,7 +26,7 @@
   }
 
   &__text-white {
-    @media (min-width:768px) {
+    @media (min-width:768px)  {
       max-width: 570px;
       font-size: 18px;
       line-height: 26px;
@@ -30,8 +34,13 @@
   }
 
   &__main-title {
-    @media (min-width:768px) {
+    @media (min-width:768px) and (max-width: 1199px) {
       max-width: 512px;
+    }
+
+    @media (min-width: 1200px) {
+      font-size: 20px;
+      max-width: 650px;
     }
   }
 
@@ -60,7 +69,7 @@
   }
 
   &__form-wrapper {
-    margin-top: 14px;
+    margin-top: 85px;
     width: 260px;
     padding: 20px;
     height: 378px;
@@ -185,9 +194,11 @@
     }
 
     @media (min-width: 1200px) {
+      height: 950px;
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+      align-items: flex-start;
       padding-left: 15px;
       padding-right: 15px;
     }
