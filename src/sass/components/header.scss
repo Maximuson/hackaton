@@ -1,4 +1,195 @@
-h1 {
-    color: red;
+.header {
+  background-image: url(../images/header-bg-m.png);
+  background-size: cover;
+  background-position: center;
+  background-color: #181c27;
+
+  &__logo {
+    display: inline-block;
+    padding-top: 26px;
+  }
+
+  &__text-white,
+  &__main-title {
+    margin: 22px 0;
+    color: #ffffff;
+    font-family: Acrom-R;
+    font-size: 14px;
+    font-weight: 400;
+    /* Text style for "Бесплатная" */
+    letter-spacing: -0.56px;
+    line-height: 18px;
+  }
+
+  &__text-white {
+    @media (min-width:768px) {
+      max-width: 570px;
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+
+  &__main-title {
+    @media (min-width:768px) {
+      max-width: 512px;
+    }
+  }
+
+  &-meet {
+    color: #f9ae23;
     font-family: Acrom-B;
+    font-size: 14px;
+    font-weight: 700;
+    font-weight: 700;
+    letter-spacing: -0.56px;
+
+    @media (min-width: 768px) {
+      font-size: 18px;
+    }
+
+    &.time {
+      font-family: Acrom-EB;
+      font-size: 20px;
+      font-weight: 400;
+      letter-spacing: -0.8px;
+
+      @media (min-width: 768px) {
+        font-size: 40px;
+      }
+    }
+  }
+
+  &__form-wrapper {
+    margin-top: 14px;
+    width: 260px;
+    padding: 20px;
+    height: 378px;
+    box-shadow: 0 12px 70px rgba(121, 139, 188, 0.48);
+    background-color: #ffffff;
+    box-shadow: 0 12px 70px rgba(121, 139, 188, 0.48);
+
+    @media (min-width: 768px) {
+      width: 621px;
+    }
+
+    @media (min-width: 1200px) {
+      width: 460px;
+    }
+
+  }
+
+  &__form-title {
+    margin-bottom: 10px;
+    color: #000000;
+    font-family: Acrom-EB;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+
+    @media (min-width: 768px) {
+      width: 370px;
+      text-align: center;
+      font-size: 24px;
+      margin: 12px auto;
+    }
+  }
+
+  &__form-subtitle {
+    color: #000000;
+    font-family: Acrom-R;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: -0.26px;
+
+    @media (min-width: 768px) {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+  }
+
+  .form__input {
+    padding-left: 15px;
+    margin: 6px 0px;
+    width: 220px;
+    height: 40px;
+    border: 1px solid #525252;
+    color: #a2a2a2;
+    font-family: Acrom-R;
+    font-size: 14px;
+    font-weight: 500;
+
+    &::placeholder {
+      color: #a2a2a2;
+      font-family: Acrom-R;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    @media (min-width: 768px) {
+      width: 467px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+    @media (min-width: 1200px) {
+      width: 389px;
+    }
+  }
+
+  .form__button {
+    width: 220px;
+    height: 40px;
+    box-shadow: 0 2px 10px rgba(255, 107, 8, 0.59);
+    background-color: #ff6b08;
+    color: #ffffff;
+    font-family: Acrom-EB;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.32px;
+    cursor: pointer;
+
+    @media (min-width: 768px) {
+      margin-top: 26px;
+      width: 467px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+
+    @media (min-width: 1200px) {
+      width: 389px;
+    }
+  }
+
+  &__confidencial {
+    color: #5d6066;
+    text-align: center;
+    display: block;
+    font-family: Acrom-R;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 37.5px;
+  }
+
+
+  .container {
+    padding-bottom: 28px;
+
+    @media (min-width:768px) {
+      padding-left: 62px;
+      padding-right: 62px;
+    }
+
+    @media (min-width: 1200px) {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
 }
