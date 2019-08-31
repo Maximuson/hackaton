@@ -71,6 +71,7 @@
     .footer-background {
         min-width: 768px;
         min-height: 458px;
+        background-position-y: bottom;
         background-image: url('../images/footerBGT-min.jpg');
     }
     
@@ -105,6 +106,12 @@
 
 }
 
+.footer-background {
+    .container {
+        min-height: 1052px;
+    }
+}
+
 @media (min-width: 1200px) {
     .footer-background {
         min-width: 1170px;
@@ -115,7 +122,6 @@
     
     .container {
         width: 1170px;
-        min-height: 1052px;
     }
 
     .order {
