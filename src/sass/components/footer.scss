@@ -1,0 +1,143 @@
+.footer-background {
+    min-width: 320px;
+    min-height: 480px;
+    background-color: #181c27;
+    background-image: url('../images/footerBGM320479.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__image {
+    cursor: pointer;
+}
+
+.logo-moto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order {
+    font-family: 'Acrom-EB', sans-serif;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 60px;
+    color: #00eaff;
+}
+
+.order {
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.moto {
+    font-family: 'Acrom-R', sans-serif;
+    font-size: 14px;
+    line-height: auto;
+    color: #ffffff; 
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+
+/* media */
+
+@media (min-resolution: 192dpi) and (min-resolution: 2dppx) and (max-width: 767px){
+    .footer-background {
+        background-image: url(../images/footerBGM320479@2x.jpg);
+        }
+    }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .container {
+        width: 260px;
+        min-height: 480px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .footer-background {
+        min-width: 768px;
+        min-height: 458px;
+        background-position-y: bottom;
+        background-image: url('../images/footerBGT-min.jpg');
+    }
+    
+    .container {
+        width: 748px;
+        min-height: 458px;
+    }
+
+    .order {
+        font-size: 30px;
+        padding-top: 90px;
+    }
+
+    .logo-moto {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-self: flex-start;
+        padding: 15px;
+        margin-left: 44px;
+    }
+
+    .moto {
+        font-family: 'Acrom-R', sans-serif;
+        font-size: 18px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+
+}
+
+.footer-background {
+    .container {
+        min-height: 1052px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer-background {
+        min-width: 1170px;
+        min-height: 1055px;
+        background-color: #181c27;
+        background-image: url('../images/footerBGD19201055.png');
+    }
+    
+    .container {
+        width: 1170px;
+    }
+
+    .order {
+        font-size: 60px;
+        padding-top: 255px;
+    }
+
+    .logo-moto {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-self: flex-start;
+        margin-left: 0;
+        padding: 15px;
+        padding-bottom: 60px;
+    }
+
+    .moto {
+        font-family: 'Acrom-R', sans-serif;
+        font-size: 25px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+}
