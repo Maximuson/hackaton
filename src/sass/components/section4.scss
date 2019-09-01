@@ -1,5 +1,13 @@
 .section4 {
-    padding-top: 35px;
+  padding-top: 35px;
+
+  @media (min-width: 768px) {
+    padding-top: 50px;
+  }
+
+  @media (min-width: 1200px) {
+    padding-top: 0;
+  }
 }
 
 .section-title {
@@ -112,14 +120,24 @@
   @media (min-width: 768px) {
     display: inline-block;
   }
-
-  // @media (min-width: 1200px) {
-  //     display: block;
-  // }
 }
 
 .sect4-span-tbl {
+  display: block;
+
   @media (min-width: 768px) {
+    display: inline-block;
+  }
+}
+
+.sect4-span-lg {
+  display: block;
+
+  @media (min-width: 768px) {
+    display: inline-block;
+  }
+
+  @media (min-width: 1200px) {
     display: block;
   }
 }
