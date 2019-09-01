@@ -7,6 +7,23 @@
     padding-top: 50px;
     padding-bottom: 60px;
   }
+  
+  .section-title {
+    @media (min-width: 768px) and (max-width:1199px) {
+      font-size: 30px;
+      max-width: 630px; 
+      margin-bottom: 15px; 
+      margin-left: auto;
+      margin-right: auto;
+    }
+    @media (min-width: 1200px) {
+      font-size: 48px;
+      line-height: 48px;
+      margin-bottom: 115px;
+      
+    }
+  }
+
 }
 
 .list-block {
@@ -123,18 +140,3 @@
   }
 }
 
-.section-title {
-  @media (min-width: 768px) and (max-width:1199px) {
-    font-size: 30px;
-    max-width: 630px; 
-    margin-bottom: 15px; 
-    margin-left: auto;
-    margin-right: auto;
-  }
-  @media (min-width: 1200px) {
-    font-size: 48px;
-    line-height: 48px;
-    margin-bottom: 115px;
-    
-  }
-}
