@@ -9,32 +9,14 @@
         text-align: center;
         font-size: 30px;
         margin-bottom: 40px;
-
     }
 
     @media (min-width: 1200px) {
         text-align: left;
-        font-size: 30px;
-        margin-bottom: 40px;
-
-    }
-  }
-
-
-.sect4-wrp {
-    @media (min-width: 1200px) {
-    display: flex;
-    align-items: flex-end;
-}
+        }
+    
 }
 
-.sect4-cart2 {
-    @media (min-width: 1200px) {
-        width: 435px;
-        height: 380px;
-        margin-left: 35px;
-    }
-}
 
 
 .section-subtitle {
@@ -51,8 +33,35 @@
         width: 380px;
         margin: 0 auto; 
         padding-top: 50px;
+        padding-bottom: 25px;
+    }
+
+    @media (min-width: 1200px) {
+        font-size: 22px;
+        // margin-bottom: 40px;
+        line-height: 1.2;
+        width: 520px;
+    }
+  }
+
+
+.sect4-wrp {
+    @media (min-width: 1200px) {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: flex-end;
+}
+}
+
+.sect4-cart2 {
+    @media (min-width: 1200px) {
+        width: 435px;
+        margin-left: 35px;
     }
 }
+
+
 
 .sect4-cart-wrp {
     position: relative;
@@ -111,9 +120,9 @@
         display: inline-block;
     }
 
-    @media (min-width: 1200px) {
-        display: block;
-    }
+    // @media (min-width: 1200px) {
+    //     display: block;
+    // }
 }
 
 .sect4-span-tbl {
@@ -129,7 +138,7 @@
         font-family: "Acrom-B";
         font-size: 30px;
         line-height: 30px;
-        color: $acuamarin;
+        color: $aquamarine;
         margin-bottom: 5px;
     }
 
@@ -171,7 +180,7 @@
     @media (min-width: 768px) {
         width: 350px;
         height: 218px;
-        top: 260px;
+        top: 285px;
         left: 360px;
         background-image: url(../../images/map/map-blue.png);
     }
@@ -179,7 +188,7 @@
     @media (min-width: 1200px) {
         width: 320px;
         height: 199px;
-        top: 280px;
+        top: 300px;
         left: 350px;
     }
 
@@ -196,7 +205,7 @@
         font-family: "Acrom-B";
         font-size: 25px;
         line-height: 25px;
-        color: $acuamarin;
+        color: $aquamarine;
         margin-bottom: 10px;
 
     }
@@ -233,7 +242,7 @@
             position: absolute;
             content: "\25A0";
             font-size: 25px;
-            color: $acuamarin;
+            color: $aquamarine;
             margin: 0;
             padding: 0;
             margin-top: -5px;
