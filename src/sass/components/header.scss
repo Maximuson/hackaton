@@ -69,7 +69,7 @@
   }
 
   &__form-wrapper {
-    margin-top: 85px;
+    margin-top: 14px;
     width: 260px;
     padding: 20px;
     height: 378px;
@@ -79,9 +79,11 @@
 
     @media (min-width: 768px) {
       width: 621px;
+      margin-top: 20px;
     }
 
     @media (min-width: 1200px) {
+      margin-top: 85px;
       width: 460px;
     }
 
