@@ -186,3 +186,108 @@
     margin-left: -5px;
   }
 }
+.un-subsection {
+    background-image: url(../images/Un-BG_Mob247.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.item-title {
+    font-family: 'Acrom-EB', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.un-title {
+    padding-bottom: 15px;
+}
+
+.text {
+    font-family: 'Acrom-R', sans-serif;
+    font-size: 14px;
+    line-height: auto;
+    color: #6b6f7a; 
+    padding-bottom: 40px;
+}
+
+.subsection-title {
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-left: 45px;
+}
+
+.partners {
+    padding-bottom: 30px;
+}
+
+.partners-logo {
+    background-image: url(../images/ParnersSec6Mob.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 260px;
+    height: 300px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .un-subsection {
+        width: 384px;
+        background-repeat: no-repeat;
+        background-position: top right;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .subsection-title {
+        font-size: 16px;
+        text-align: start;
+        padding-left: 0px;
+    }
+
+    .partners-logo {
+        background-image: url(../images/Patners_logosTD.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 682px;
+        height: 170px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .un-wrapper {
+        min-width: 1170px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .un-subsection {
+        width: 384px;
+        background-repeat: no-repeat;
+        background-position: top right;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    .subsection-title {
+        font-size: 16px;
+        text-align: start;
+        padding-left: 0px;
+    }
+
+    .partners-logo {
+        background-image: url(../images/Patners_logosTD.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 682px;
+        height: 170px;
+    }
+
+    .awards {
+        order: 2;
+    }
+
+}
