@@ -802,7 +802,7 @@ button {
   z-index: -1;
   top: 570px;
   left: 12px;
-  background-image: url(../../images/map/map-mobile.png);
+  background-image: url(../images/map/map-mobile.png);
   background-size: cover;
 }
 
@@ -1305,7 +1305,7 @@ button {
     height: 218px;
     top: 285px;
     left: 360px;
-    background-image: url(../../images/map/map-blue.png);
+    background-image: url(../images/map/map-blue.png);
   }
 
   .sec4-list2 {

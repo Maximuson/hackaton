@@ -180,7 +180,7 @@
   z-index: -1;
   top: 570px;
   left: 12px;
-  background-image: url(../../images/map/map-mobile.png);
+  background-image: url(../images/map/map-mobile.png);
   background-size: cover;
 
   @media (min-width: 768px) {
@@ -188,7 +188,7 @@
     height: 218px;
     top: 285px;
     left: 360px;
-    background-image: url(../../images/map/map-blue.png);
+    background-image: url(../images/map/map-blue.png);
   }
 
   @media (min-width: 1200px) {
